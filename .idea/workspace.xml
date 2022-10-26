@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d71897d-1dec-4347-8480-9d37f9ff927e" name="Changes" comment="">
+    <list default="true" id="0d71897d-1dec-4347-8480-9d37f9ff927e" name="Changes" comment="created with Cucumber Framework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/AddToBasked..text" beforeDir="false" afterPath="$PROJECT_DIR$/log/AddToBasked..text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectModel/addToBasked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/addToBasked.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +47,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -112,8 +114,16 @@
       <workItem from="1665693644400" duration="681000" />
       <workItem from="1666259078971" duration="491000" />
       <workItem from="1666772325534" duration="4600000" />
-      <workItem from="1666778958475" duration="3362000" />
+      <workItem from="1666778958475" duration="5001000" />
     </task>
+    <task id="LOCAL-00001" summary="created with Cucumber Framework">
+      <created>1666782725537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666782725537</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,5 +139,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created with Cucumber Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="created with Cucumber Framework" />
   </component>
 </project>

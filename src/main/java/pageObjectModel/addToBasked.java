@@ -52,7 +52,7 @@ public class addToBasked extends A101Base {
     public void loginAccount() throws InterruptedException {
         Actions actions=new Actions(driver);
         actions.click(emailTextBoxElement)
-                .sendKeys("ekrhnn@gmail.com")
+                .sendKeys("edakarahankurt@gmail.com")
                 .sendKeys(Keys.ENTER)
                 .perform();
         Thread.sleep(5000);
@@ -66,7 +66,8 @@ public class addToBasked extends A101Base {
     @FindBy(xpath = "//span[@class=\"sf-OldMyAccount-sS_G2sunmDtZl9Tld5PR\"]")
     private WebElement accountElement;
     public void verifySuccessLogin(){
-        Assertion(accountElement, "eda karahan");
+        System.out.println("Kayitli Kullanici ismi : ");
+        Assertion(accountElement, "Eda Kurt");
     }
 
 
@@ -120,9 +121,8 @@ public class addToBasked extends A101Base {
     public void addToBaskedProducts() throws InterruptedException {
 
         productName=productNameElement.getText().trim();
-        System.out.println("Sepete eklenen urun adi : "+productName);
         companyName=companyNameElement.getText().trim();
-        System.out.println("Sepete eklenen urunun saticisi : "+companyName);
+        System.out.println("Sepete eklenen urunun adi ve  saticisi : "+productName+"/"+companyName);
 
         Thread.sleep(5000);
         clickFunction(addToCartElement);
@@ -136,8 +136,9 @@ public class addToBasked extends A101Base {
         clickFunction(closeElement);
         Thread.sleep(5000);
 
+// 2 farkli urun satici oldugu dogrulanir.
+
         Assert.assertNotEquals(seller1.getText(), seller2.getText());
-        System.out.println("Sepetteki urun saticisi : "+seller2.getText().trim());
         Thread.sleep(5000);
 
 
@@ -147,7 +148,7 @@ public class addToBasked extends A101Base {
 
     public void assertProducts(){
         baskedProductName.getText().trim();
-        System.out.println("Sepetteki urun adi : ");
+        System.out.println("Sepetteki urun adi ve saticisi : ");
         Assertion(baskedProductName, productName);
         Assertion(seller2, companyName);
 
