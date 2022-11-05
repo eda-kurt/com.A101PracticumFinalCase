@@ -101,9 +101,9 @@ public class addToBasked extends A101Base {
 
     @FindBy(xpath = "//button[@id='addToCart']")
     private WebElement addToCartElement;
-    @FindBy(xpath = "//a[@class='checkoutui-Modal-2iZXl']")
+    @FindBy(xpath = "//a[@class='checkoutui-Modal-iHhyy79iR28NvF33vKJb']")
     private WebElement firstCloseElement;
-    @FindBy(xpath = "/html/body/div[2]/main/div[3]/section[1]/div[4]/div/div[4]/div[2]/div[3]/div/div[2]/table/tbody/tr[1]/td[3]/div")
+    @FindBy(xpath = "/html/body/div[2]/main/div[3]/section[1]/div[3]/div/div[4]/div[2]/div[3]/div/div[2]/table/tbody/tr[1]/td[3]/div/form/button")
     private WebElement otherSeller;
     @FindBy(xpath = "//button[text()='Sepete git']")
     private WebElement closeElement;
@@ -129,8 +129,6 @@ public class addToBasked extends A101Base {
         Thread.sleep(7000);
         clickFunction(firstCloseElement);
         Thread.sleep(5000);
-        driver.findElement(By.xpath("//*[@id=\"onetrust-accept-btn-handler\"]")).click();
-        Thread.sleep(3000);
         clickFunction(otherSeller);
         Thread.sleep(5000);
         clickFunction(closeElement);

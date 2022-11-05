@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/AddToBasked..text" beforeDir="false" afterPath="$PROJECT_DIR$/log/AddToBasked..text" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinition/MyStepdefsAddToBasked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepDefinition/MyStepdefsAddToBasked.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectModel/addToBasked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/addToBasked.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/StepDefinition" />
       <recent name="$PROJECT_DIR$/src/test/java/AddToBasked" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: loginAddToBasked">
+  <component name="RunManager" selected="Cucumber Java.Feature: withoutLoginAddToBasked">
     <configuration name="Feature: loginAddToBasked" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/AddToBasked/loginAddToBasked.feature" />
@@ -98,8 +99,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: loginAddToBasked" />
         <item itemvalue="Cucumber Java.Feature: withoutLoginAddToBasked" />
+        <item itemvalue="Cucumber Java.Feature: loginAddToBasked" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +115,12 @@
       <workItem from="1665693644400" duration="681000" />
       <workItem from="1666259078971" duration="491000" />
       <workItem from="1666772325534" duration="4600000" />
-      <workItem from="1666778958475" duration="5001000" />
+      <workItem from="1666778958475" duration="6015000" />
+      <workItem from="1667213784636" duration="7543000" />
+      <workItem from="1667296361281" duration="2714000" />
+      <workItem from="1667300140286" duration="593000" />
+      <workItem from="1667422236347" duration="30000" />
+      <workItem from="1667647068112" duration="668000" />
     </task>
     <task id="LOCAL-00001" summary="created with Cucumber Framework">
       <created>1666782725537</created>
@@ -123,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666782725537</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created with Cucumber Framework">
+      <created>1666784494855</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666784494855</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

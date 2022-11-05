@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import pageObjectModel.addToBasked;
 import utilities.Driver;
@@ -31,6 +32,7 @@ public class MyStepdefsAddToBasked {
 
         }
         driver.get("https://www.hepsiburada.com");
+        driver.findElement(By.xpath("//*[@id=\"onetrust-accept-btn-handler\"]")).click();
         logger.info("Kullanıcı Hepsiburada.com sitesini Basarili sekilde goruntuledi.");
 
     }
