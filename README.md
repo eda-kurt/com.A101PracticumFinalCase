@@ -48,6 +48,10 @@
      * Page object model uygulandi.
      * OOP prensiplerine uygun geliştirildi.
      
+  ### Presentation Video :
+
+[Click For Final Case Presentation Video ]( https://www.loom.com/share/1e0b30cf1e834ad1b24fd3049a83ba4b "Sunum Videosu")
+     
   ----
   
   
